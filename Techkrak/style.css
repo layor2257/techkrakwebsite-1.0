@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eczar&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    overflow-x: hidden;
+}
+
+nav{
+    background-color: #151823 !important;
+    padding: 30px 0 !important;
+    border-bottom: 1px solid white;
+    width: 100vw !important;
+    
+}
+
+nav .container .navbar-brand{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white !important;
+    letter-spacing: 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav .container ul{
+    font-size: 1.4rem;
+    color: white !important;
+}
+
+nav .container ul li a{
+    
+    color: white !important;
+    margin-right: 25px;
+    cursor: pointer;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav .container ul li a:hover{
+    
+    color: red !important;
+    font-style: oblique;
+    transition: .5s;
+}
+
+nav .navbar-collapse{
+    text-align: center;
+}
+
+nav .navbar-collapse li button{
+    background-color: transparent;
+    color: white;
+    border: 3px solid red;
+    border-radius: 30px;
+    padding: 10px 25px;
+    font-size: 1.2rem;
+}
+
+nav .navbar-collapse li button:hover{
+    background-color: red;
+    transition: .5s;
+}
+
+
+
+#showcase{
+    background: url(images/bck.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 30px;
+}
+
+#showcase .container .showitem h1{
+    font-weight: 800;
+    font-size: 6rem;
+    letter-spacing: .2rem;
+    line-height: 7rem;
+    margin-top: 30vh;
+}
+
+#showcase .container .showitem h1 span{
+    color: red;
+}
+
+#showcase .container .showitem button{
+    background-color: transparent;
+    color: white;
+    border: 3px solid red;
+    border-radius: 30px;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+
+#showcase .container .showitem button:hover{
+    background-color: red;
+    transition: .5s;
+}
+
+
+#about {
+    margin: 120px 0;
+    color: #8E6666;
+}
+
+#about .container .row .col-lg-6 .aboutlead{
+    font-size: 3rem;
+    color: black;
+    line-height: 3.5rem;
+    
+}
+
+#about .container .row .col-lg-6 .aboutspan{
+    color: red;
+}
+
+#about .container .row .col-lg-6 .firstab{
+    font-size: 1.3rem;
+    padding-top: 15px;
+}
+
+#about .container .row .col-lg-6 p{
+    font-size: 1.15rem;
+    padding-top: 10px;
+}
+
+#statistics{
+    background-color: #151823;
+    padding: 50px 0;
+    color: red;
+}
+
+#statistics .container .row .col-lg-3 h3{
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+#statistics .container .row .col-lg-3 h3 span{
+    color: red;
+    font-weight: lighter;
+}
+
+#statistics .container .row .col-lg-3 p{
+    
+    font-size: 1.5rem;
+}
+
+#whychoose{
+    color: black;
+    margin: 120px 0;
+}
+
+#whychoose .container .row .whychosep{
+    text-align: center;
+}
+
+#whychoose .container .row h4{
+    font-size: 3rem;
+}
+
+#whychoose .container .row span{
+    color: red;
+}
+
+#whychoose .container .row p{
+    font-size: 1.2rem;
+    color:  #8E6666;
+    padding: 30px 0;
+    text-align: justify;
+}
+
+#whychoose .container .row .col-lg-4 .choosebox{
+    border: 2.2px solid #E4E7F2;
+    padding: 40px 0;
+    border-radius: 10px;
+}
+
+#whychoose .container .row .col-lg-4 .choosebox:hover{
+    box-shadow: 5px 10px #8E6666;
+}
+
+#whychoose .container .row .col-lg-4 .choosebox:hover img{
+    margin-top: -10px;
+    transition: .8s;
+}
+
+#whychoose .container .row .col-lg-4 .choosebox img{
+    width: 70px;
+    border: 2.2px solid #8E6666;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+#whychoose .container .row .col-lg-4 .choosebox h5{
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+#whychoose .container .row .col-lg-4 .choosebox p{
+    padding: 25px;
+    font-size: 1.2em;
+}
+
+
+
+#delstages{
+    color: #8E6666;
+    margin-bottom: 120px;
+}
+
+#delstages .container .row .col-lg-6 {
+    margin-bottom: 120px;
+}
+
+#delstages .container .row .col-lg-6 h4{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #343641;
+    font-family: 'Eczar', serif;
+}
+
+#delstages .container .row .col-lg-6 p{
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+#delstages .container .row .col-lg-6 h5{
+    font-size: 2.4rem;
+    font-weight: bold;
+    padding: 25px 0;
+}
+
+
+
+
+
+
+
+
+
+#teamaim .container .row h4{
+    font-size: 3rem;
+    color: #343641;
+    font-family: 'Eczar', serif;
+    padding-bottom: 50px;
+}
+
+#teamaim .container .row span{
+    color: red;
+}
+
+#teamaim .container .row p{
+    font-size: 1.2rem;
+    color:  #8E6666;
+    padding: 30px 0;
+}
+
+#teamaim .container .row .col-lg-4 .choosebox{
+    border: 2.2px solid #E4E7F2;
+    padding: 40px 0;
+    border-radius: 10px;
+}
+
+#teamaim .container .row .col-lg-4 .choosebox:hover{
+    box-shadow: 5px 10px #8E6666;
+}
+
+#teamaim .container .row .col-lg-4 .choosebox:hover img{
+    margin-top: -10px;
+    transition: .8s;
+}
+
+#teamaim .container .row .col-lg-4 .choosebox img{
+    width: 70px;
+    border: 2.2px solid #8E6666;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#teamaim .container .row .col-lg-4 .choosebox h5{
+    padding: 10px;
+    font-size: 1.5em;
+    color: #8E6666;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+#teamaim .container .row .col-lg-4 .choosebox p{
+    padding: 15px;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+
+#oneteamstage{
+    color: #8E6666;
+    margin-top: 120px;
+    background-color: #F7F7F7;
+    padding-top: 100px;
+}
+
+#oneteamstage .container .row .col-lg-6 {
+    margin-bottom: 60px;
+}
+
+
+#oneteamstage .container .row .col-lg-6 .gencontent {
+    margin-bottom: 10px;
+    border: 3px solid #E4E7F2;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#oneteamstage .container .row .col-lg-6 .gencontent:hover{
+    
+    box-shadow: 5px 10px #8E6666;
+}
+
+
+
+#oneteamstage .container .row .col-lg-6 h4{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #343641;
+    font-family: 'Eczar', serif;
+}
+
+#oneteamstage .container .row .col-lg-6 p{
+    font-size: 1.3rem;
+    text-align: justify;
+    padding: 20px;
+}
+
+#oneteamstage .container .row .col-lg-6 h5{
+    font-size: 2.4rem;
+    font-weight: bold;
+    padding: 15px 0;
+    text-align: center;
+}
+
+#services{
+    color: white;
+    padding: 30px 0;
+    font-size: 1.1rem;
+    background-color: #151823;
+}
+
+#services .row h2{
+   font-weight: bolder;
+   padding: 20px 0 30px 0;
+   color: red;
+}
+
+#services .row .col-lg-4{
+    margin-bottom: 20px;
+}
+
+#services .row .col-lg-4 strong{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: #151823;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 2px solid red;
+}
