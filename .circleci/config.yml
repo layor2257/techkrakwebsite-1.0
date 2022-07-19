@@ -15,9 +15,9 @@ jobs:
     steps:
       - checkout
       - run:
-          name: "echo is an env var that is part of the project"
+          name: "save_hello_world_output"
           command: |
-            echo $First_Env_Var # this env var must be set within the project
+            echo $"text to output here" > output.txt# this env var must be set within the project
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
